@@ -11,10 +11,13 @@ html{
 }
 
 body{
-    font-family:'Poppins', sans-serif;
-    background:linear-gradient(135deg,#0f172a,#1e293b,#111827);
-    color:white;
-    overflow-x:hidden;
+  font-family:'Poppins', sans-serif;
+
+  background:
+    radial-gradient(circle at top, #1e3a8a 0%, #0f172a 45%, #020617 100%);
+
+  color:white;
+  overflow-x:hidden;
 }
 
 /* ================= NAVBAR ================= */
@@ -162,23 +165,34 @@ body{
 
 /* PROFILE IMAGE */
 
+.profile-image{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 .profile-image img{
-    width:370px;
-    height:370px;
-    object-fit:cover;
-    border-radius:50%;
+  width:380px;
+  height:380px;
+  object-fit:cover;
+  border-radius:50%;
 
-    border:6px solid rgba(255,255,255,0.1);
+  border:5px solid rgba(255,255,255,0.15);
 
-    box-shadow:
-    0 0 40px rgba(56,189,248,0.35),
-    0 0 90px rgba(59,130,246,0.15);
+  box-shadow:
+    0 0 25px rgba(37,99,235,0.6),
+    0 0 60px rgba(37,99,235,0.35),
+    0 0 120px rgba(37,99,235,0.2);
 
-    transition:0.4s;
+  transition:0.4s ease;
 }
 
 .profile-image img:hover{
-    transform:scale(1.03);
+  transform:scale(1.04);
+  box-shadow:
+    0 0 35px rgba(37,99,235,0.9),
+    0 0 80px rgba(37,99,235,0.5),
+    0 0 140px rgba(37,99,235,0.3);
 }
 
 /* ================= SECTION CARD ================= */
