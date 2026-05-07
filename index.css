@@ -14,7 +14,7 @@ body{
   font-family:'Poppins', sans-serif;
 
   background:
-    radial-gradient(circle at top, #1e3a8a 0%, #0f172a 45%, #020617 100%);
+    radial-gradient(circle at top, #7496f4 0%, #0f172a 45%, #020617 100%);
 
   color:white;
   overflow-x:hidden;
@@ -70,7 +70,7 @@ body{
     bottom:-6px;
     width:0%;
     height:2px;
-    background:#38bdf8;
+    background:#9edffb;
     transition:0.3s;
 }
 
@@ -79,7 +79,7 @@ body{
 }
 
 .nav-links a:hover{
-    color:#38bdf8;
+    color:#87d8fb;
 }
 
 .menu-icon{
