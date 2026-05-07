@@ -1,0 +1,207 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kishan Pandit | Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <div class="logo-section">
+      <h2>Kishan Pandit</h2>
+      <p>Bengaluru, India</p>
+    </div>
+
+    <div class="menu-icon" id="menuIcon">
+      ☰
+    </div>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-section" id="home">
+
+    <div class="hero-card">
+      <h1>Kishan Pandit</h1>
+
+      <p>
+        CRM Developer & aspiring data-driven technology professional
+        passionate about Salesforce, automation and modern web solutions.
+      </p>
+
+      <a href="resume.pdf" download class="resume-btn">
+        Download Resume
+      </a>
+    </div>
+
+    <div class="profile-image">
+      <!-- Replace with your image -->
+      <img src="profile.jpg" alt="Kishan Pandit">
+    </div>
+
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section class="section-card" id="about">
+
+    <h2>About</h2>
+
+    <p>
+      I'm Kishan Pandit, currently working as a CRM Ticket Specialist
+      (Developer) at Cloudstaff India LLP. I have experience in Salesforce,
+      CRM workflows, Apex development and automation.
+    </p>
+
+    <p>
+      I completed my Computer Science & Engineering degree from CMR Institute
+      of Technology, Bengaluru. I enjoy building clean digital experiences,
+      solving business problems and learning modern technologies.
+    </p>
+
+  </section>
+
+  <!-- ================= SKILLS SECTION ================= -->
+  <section class="section-card" id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="skill-box">Salesforce</div>
+      <div class="skill-box">Apex</div>
+      <div class="skill-box">LWC</div>
+      <div class="skill-box">HTML</div>
+      <div class="skill-box">CSS</div>
+      <div class="skill-box">JavaScript</div>
+      <div class="skill-box">CRM Development</div>
+      <div class="skill-box">Automation</div>
+      <div class="skill-box">Git & GitHub</div>
+      <div class="skill-box">SQL</div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= PROJECTS SECTION ================= -->
+  <section class="section-card" id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Salesforce Contact Automation</h3>
+      <p>
+        Developed automation using Apex Trigger and Handler Framework to
+        manage account-contact relationships.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>
+        Responsive modern portfolio website inspired by clean UI/UX designs.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <h3>CRM Workflow Optimization</h3>
+      <p>
+        Worked on ticket handling, CRM workflows and process optimization
+        for business support systems.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section class="section-card contact-section" id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p class="contact-text">
+      Interested in collaborating or hiring me? Send me a message.
+    </p>
+
+    <!-- 
+      FORM SUBMISSION:
+      Replace YOUR_FORM_ID below using FormSubmit
+      Website: https://formsubmit.co/
+    -->
+
+    <form
+      action="https://formsubmit.co/panditkishan077@gmail.com"
+      method="POST"
+      class="contact-form"
+    >
+
+      <!-- Disable captcha -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <!-- Redirect after submit -->
+      <input
+        type="hidden"
+        name="_next"
+        value="https://yourdomain.com/thankyou.html"
+      >
+
+      <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+      >
+
+      <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+      >
+
+      <textarea
+        name="message"
+        rows="6"
+        placeholder="Write your message..."
+        required
+      ></textarea>
+
+      <button type="submit">
+        Send Message
+      </button>
+
+    </form>
+
+    <div class="email-box">
+      <strong>Email:</strong>
+      panditkishan077@gmail.com
+    </div>
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <p>© 2026 Kishan Pandit. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
